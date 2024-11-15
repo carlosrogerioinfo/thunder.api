@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Thunder.Project.Core/1.0.0": {
+        "runtime": {
+          "Thunder.Project.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Thunder.Project.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

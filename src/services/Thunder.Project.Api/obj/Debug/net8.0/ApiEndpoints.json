@@ -1,0 +1,208 @@
+[
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "Post",
+    "RelativePath": "todo/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Thunder.Project.Domain.Http.Request.TodoRegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Lib.Response.BaseResponse\u00601[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  },
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "Delete",
+    "RelativePath": "todo/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Lib.Response.BaseResponse\u00601[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  },
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "Get",
+    "RelativePath": "todo/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Lib.Response.BaseResponse\u00601[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  },
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "GetAll",
+    "RelativePath": "todo/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Db.Domain.Model.PagedResponse\u00602[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Esterdigi.Core.Db.Domain.Model.PagedResult, Esterdigi.Core.Db, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  },
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "Patch",
+    "RelativePath": "todo/patch",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Thunder.Project.Domain.Http.Request.TodoUpdateStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Lib.Response.BaseResponse\u00601[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  },
+  {
+    "ContainingType": "Thunder.Project.Api.Controllers.TodoController",
+    "Method": "Put",
+    "RelativePath": "todo/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Thunder.Project.Domain.Http.Request.TodoUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Esterdigi.Core.Lib.Response.BaseResponse\u00601[[Thunder.Project.Domain.Model.Response.TodoResponse, Thunder.Project.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Esterdigi.Core.Lib.Response.ResponseError",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 412
+      }
+    ]
+  }
+]

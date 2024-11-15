@@ -1,0 +1,17 @@
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Infrastructure.deps.json
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Infrastructure.runtimeconfig.json
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Infrastructure.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Infrastructure.pdb
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Domain.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\bin\Debug\net8.0\Thunder.Project.Domain.pdb
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.csproj.AssemblyReference.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.AssemblyInfoInputs.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.AssemblyInfo.cs
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.csproj.CoreCompileInputs.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder..636B766B.Up2Date
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\refint\Thunder.Project.Infrastructure.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.pdb
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\Thunder.Project.Infrastructure.genruntimeconfig.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Infrastructure\obj\Debug\net8.0\ref\Thunder.Project.Infrastructure.dll

@@ -1,0 +1,11 @@
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\bin\Debug\net8.0\Thunder.Project.Core.deps.json
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\bin\Debug\net8.0\Thunder.Project.Core.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\bin\Debug\net8.0\Thunder.Project.Core.pdb
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.AssemblyInfoInputs.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.AssemblyInfo.cs
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.csproj.CoreCompileInputs.cache
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\refint\Thunder.Project.Core.dll
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\Thunder.Project.Core.pdb
+E:\projects\git\aspnet\core\8.0\thunder.project.lnx\src\building_blocks\Thunder.Project.Core\obj\Debug\net8.0\ref\Thunder.Project.Core.dll

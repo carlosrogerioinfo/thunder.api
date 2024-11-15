@@ -1,0 +1,470 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\services\\Thunder.Project.Api\\Thunder.Project.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\Thunder.Project.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\Thunder.Project.Core.csproj",
+        "projectName": "Thunder.Project.Core",
+        "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\Thunder.Project.Core.csproj",
+        "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj",
+        "projectName": "Thunder.Project.Domain",
+        "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj",
+        "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.IQueryable.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Esterdigi.Core.Db": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Esterdigi.Core.Lib": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidator.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj",
+        "projectName": "Thunder.Project.Infrastructure",
+        "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.IQueryable.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Esterdigi.Core.Db": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Esterdigi.Core.Lib": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\Thunder.Project.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\Thunder.Project.Service.csproj",
+        "projectName": "Thunder.Project.Service",
+        "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\Thunder.Project.Service.csproj",
+        "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\Thunder.Project.Core.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Core\\Thunder.Project.Core.csproj"
+              },
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj"
+              },
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.IQueryable.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Esterdigi.Core.Db": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Esterdigi.Core.Lib": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidator.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\services\\Thunder.Project.Api\\Thunder.Project.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\services\\Thunder.Project.Api\\Thunder.Project.Api.csproj",
+        "projectName": "Thunder.Project.Api",
+        "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\services\\Thunder.Project.Api\\Thunder.Project.Api.csproj",
+        "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\services\\Thunder.Project.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Domain\\Thunder.Project.Domain.csproj"
+              },
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Infrastructure\\Thunder.Project.Infrastructure.csproj"
+              },
+              "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\Thunder.Project.Service.csproj": {
+                "projectPath": "E:\\projects\\git\\aspnet\\core\\8.0\\thunder.project.lnx\\src\\building_blocks\\Thunder.Project.Service\\Thunder.Project.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Esterdigi.Core.Db": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Esterdigi.Core.Lib": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
