@@ -1,56 +1,36 @@
 # Projeto Thunder Api
 
-Siga os passos abaixo para executar a api
+O projeto thunder api é um projeto CRUD web api rest para lista de tarefas. Para poder executar localmente através da imagem docker, siga os passos abaixo;
 
-O projeto **Biosite** é um exemplo de estrutura de aplicação distribuída com utilização de **API**, **Gateways** para isolamento das APIs, possui uma implementação funcional do uso do **CRQS** (Command Query Responsibility Segregation), uso de **VO** (Value Objects) e uso de **Notification Pattern** e muito mais, este projeto tem a intenção de servir de modelo para desenvolvedores iniciantes que estão aprendendo desenvolvimento de backends com comunicação entre APIs via gateway na plataforma Asp.Net Core usando linguagem C#.
+#### Docker <br/>
+Caso não tenha instalado, instale o Docker Desktop https://www.docker.com/products/docker-desktop/<br/>
+Após instalado o docker desktop, abra um prompt de comando e digite a linha a seguir para baixar a imagem thunder_api <br/>
 
-A parte de comunicação entre a api gateway de exemplo com os endpoints das outras APIs, não está totalmente concluída, no projeto atual, a gateway se comunica com a API de autenticação para realizar o login e obter o token, e também está realizando comunicação com as APIs de biomarcadores e órgãos, trazendo todos os registros apenas. Os demais endpoints tanto da API de autenticação, quanto das APIs de biomarcadores e orgãos necessitam ser implementados. Aos poucos, a medida que sobrar um tempinho, eu vou adicionando.
+```
+docker run --rm -it -p 5000:8080 carlosrogeriodeveloper/thunder_api:1.0.0
+```
 
-Mas, sinta-se a vontade para usar o código e implementar as outras chamadas do gateway para os demais endpoints de suas respectivas APIs. Obviamente simplificamos o projeto de modo que foi criado apenas uma única api gateway para chamar os endpoints das outras APIs, mas, sinta-se a vontade para incluir as outras APIs gateway como forma de aprendicado para você.
+![image](https://github.com/user-attachments/assets/5345e7fa-4a00-4e9a-b013-a5128cde30e0)
 
-## Estrutura
-IMAGEM
+![image](https://github.com/user-attachments/assets/e42e73a7-48da-48b3-bf33-ec6e0e29a34f)
 
-## As APIs podem ser testadas através dos seguintes endereços logo abaixo:
+#### Após instalação da imagem
 
-**API Gateway** : <a href="http://gateway.yourdomain.com/" target="_blank">http://gateway.yourdomain.com/</a>
-  
-**API de autenticação**: <a href="http://authentication.yourdomain.com/" target="_blank">http://authentication.yourdomain.com/</a>
+Após instalado a imagem, no docker desktop será possível visualizar a imagem e o respectivo container em execução, conforme a seguir:<br/>
 
-**API de biomarcadores**: <a href="http://biomarker.yourdomain.com/" target="_blank">http://biomarker.yourdomain.com/</a>
+Imagem
+![image](https://github.com/user-attachments/assets/d35e2e9a-4772-4c62-aba8-f6106aefa5fc)
 
-**API de órgãos**: <a href="http://organ.yourdomain.com/" target="_blank">http://organ.yourdomain.com/</a>
+Container
+![image](https://github.com/user-attachments/assets/f4a602b5-40c8-495c-9ba2-ab1b50c80d25)
 
-## Informações de login para autenticação
+#### Após instalação da imagem
 
-**e-mail** : carlos@biosite.com<br/>
-**senha** : teste123
+Agora basta abrir o navegador, e na barra de endereço digite o endereço abaixo <br/>
+```
+http://localhost:5000/
+```
+![image](https://github.com/user-attachments/assets/d851b9b0-5de0-4687-9a46-e852edfe87fe)
 
-**e-mail** : ester@biosite.com<br/>
-**senha** : teste123
-
-## Banco de dados
-
-Para este projeto foi usado o banco de dados SQL Server, mas não se preocupe, eu vou te passar um serviço de hospedagem onde tanto o banco de dados SQL server quanto serviço de hospedagem de aplicações asp.net e asp.net core são gratuítos. Basta você cadastrar sua conta criar seu database e executar os scripts que estão no projeto.
-
-### Script I - Criação das tabelas <br/>
-https://github.com/carlosrogerioinfo/biosite-project-backend/blob/main/script-database/script-criacao-tabelas.sql
-
-### Script II - Inclusão de registros nas tabelas <br/>
-https://github.com/carlosrogerioinfo/biosite-project-backend/blob/main/script-database/script-inclusao-dados.sql
-
-## Hospedagem gratuita (Asp.Net Core / SQL Server)
-
-Hospedagem gratuita para aplicações asp.net e asp.net core e com banco de dados sql server incluídos gratuitamente.
-<a href="https://somee.com/" target="_blank">https://somee.com/</a>
-
-## Links úteis
-<a href="https://www.markdownguide.org/basic-syntax/#overview" target="_blank">Sintaxe Básica Markdown</a>
-
-## Contato
-E-mail: carlosrogerio.info@gmail.com <br/>
-
-# Frontend Biosite
-
-### Baixe aqui o projeto frontend em angular com primeng components
-https://github.com/carlosrogerioinfo/biosite-project-frontend/
+### Contato
+E-mail: carlosrogerio.info@gmail.com
